@@ -25,7 +25,17 @@ button {
  */
  .ha1{border:1px solid #3498db;background:0 0;padding:10px 20px;font-size:20px;font-family:montserrat;cursor:pointer;margin:10px;transition:.8s;position:relative;overflow:hidden}.down-up,.up-down{color:#3498db}.down-up-uf,.up-down-uf{color:#fff}.down-up:hover,.up-down:hover{color:#fff}.down-up-uf:hover,.up-down-uf:hover{color:#3498db}.ha1::before{content:"";position:absolute;left:0;width:100%;height:0%;background:#3498db;z-index:-1;transition:.8s}.down-up-uf::before,.up-down::before{top:0;border-radius:0 0 50% 50%}.down-up::before,.up-down-uf::before{bottom:0;border-radius:50% 50% 0 0}.down-up-uf::before,.up-down-uf::before{height:180%}.down-up:hover::before,.up-down:hover::before{height:180%}.down-up-uf:hover::before,.up-down-uf:hover::before{height:0%}
 
+ /*
+#3nd External Library
+Ripple Effects
+ From :- 
+ https://codepen.io/finnhvman/pen/jLXKJw
 
+ Code :- HA1
+ */
+ .rief-center{background-position:center;transition:background .8s}.rief-center:hover{background:#47a7f5 radial-gradient(circle,transparent 1%,#47a7f5 1%) center/15000%}.rief-center:active{background-color:#6eb9f7;background-size:100%;transition:background 0s}.rief-center{border:none;border-radius:2px;padding:12px 18px;font-size:16px;text-transform:uppercase;cursor:pointer;color:#fff;background-color:#2196f3;box-shadow:0 0 4px #999;outline:0}
+
+ 
 
 
 
